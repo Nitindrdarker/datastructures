@@ -37,7 +37,7 @@ void add_biggning(node **b)
 void deletes(node *dele)
 {
     node *dl=new node();
-    while(dele->data!=10)
+    while(dele!=NULL)
     {
         if(dele->link->data==10)
         {
